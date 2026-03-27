@@ -836,19 +836,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.73464686
+      value: 0.99194455
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.67844975
+      value: 0.12667292
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4612,7 +4612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a8f819515e71e24d979311f652f47db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  speed: 15
+  speed: 5
   rb: {fileID: 1844738634}
   gameOverScreen: {fileID: 1627393428}
 --- !u!54 &1844738634
@@ -5538,7 +5538,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.44
+      value: 1.19
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalPosition.z
