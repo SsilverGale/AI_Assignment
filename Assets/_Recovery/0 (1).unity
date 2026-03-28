@@ -337,21 +337,6 @@ MonoBehaviour:
   references:
     version: 2
     RefIds: []
---- !u!114 &56524962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 56524948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 956c4d12f2e1e944fa815fe10dce5c62, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Mover
-  PatrolWaypoints: []
-  player: {fileID: 1844738632}
-  octree_Generator: {fileID: 1377691806}
 --- !u!1 &115757981
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,7 +836,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.88521
+      value: 0.54057264
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalRotation.x
@@ -859,7 +844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.46519172
+      value: 0.84129745
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalRotation.z
@@ -887,10 +872,6 @@ PrefabInstance:
       value: 'Unity.Behavior Unity.Behavior.BlackboardVariable`1[[Player, Assembly-CSharp]]'
       objectReference: {fileID: 0}
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      propertyPath: 'managedReferences[4124208276134428965]'
-      value: 'Unity.Behavior Unity.Behavior.BlackboardVariable`1[[Mover, Assembly-CSharp]]'
-      objectReference: {fileID: 0}
-    - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: managedReferences[1714097409682571720].Name
       value: Waypoints
       objectReference: {fileID: 0}
@@ -899,21 +880,13 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      propertyPath: managedReferences[4124208276134428965].Name
-      value: Mover
-      objectReference: {fileID: 0}
-    - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_BlackboardVariableOverridesList.Array.size
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: managedReferences[1714097409682571721].m_Value
       value: 
       objectReference: {fileID: 1844738633}
-    - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      propertyPath: managedReferences[4124208276134428965].m_Value
-      value: 
-      objectReference: {fileID: 552012045}
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: 'm_BlackboardVariableOverridesList.Array.data[2]'
       value: 1714097409682571720
@@ -921,10 +894,6 @@ PrefabInstance:
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: 'm_BlackboardVariableOverridesList.Array.data[3]'
       value: 1714097409682571721
-      objectReference: {fileID: 0}
-    - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      propertyPath: 'm_BlackboardVariableOverridesList.Array.data[4]'
-      value: 4124208276134428965
       objectReference: {fileID: 0}
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: managedReferences[1714097409682571720].GUID.m_Value0
@@ -941,14 +910,6 @@ PrefabInstance:
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: managedReferences[1714097409682571721].GUID.m_Value1
       value: 992622172128348666
-      objectReference: {fileID: 0}
-    - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      propertyPath: managedReferences[4124208276134428965].GUID.m_Value0
-      value: 14368346813134802561
-      objectReference: {fileID: 0}
-    - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      propertyPath: managedReferences[4124208276134428965].GUID.m_Value1
-      value: 9679379984383379224
       objectReference: {fileID: 0}
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: managedReferences[1714097409682571720].m_Value.Array.size
@@ -973,10 +934,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4280180566636936953, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 552012045}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
 --- !u!1 &322268604
 GameObject:
@@ -1802,26 +1760,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2037566344}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!1 &552012037 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4280180566636936953, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-  m_PrefabInstance: {fileID: 309185328}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &552012045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 552012037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 956c4d12f2e1e944fa815fe10dce5c62, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Mover
-  PatrolWaypoints: []
-  player: {fileID: 1844738632}
-  octree_Generator: {fileID: 1377691806}
 --- !u!1 &555469039
 GameObject:
   m_ObjectHideFlags: 0
@@ -3666,7 +3604,9 @@ MonoBehaviour:
   - {fileID: 115757981}
   - {fileID: 1832840756}
   - {fileID: 322268604}
-  minNodeSize: 2
+  - {fileID: 1229489679}
+  - {fileID: 1800255843}
+  minNodeSize: 1
 --- !u!4 &1377691807
 Transform:
   m_ObjectHideFlags: 0
@@ -4078,7 +4018,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4170f2a48898d04c95366af9798a8d3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.65
+      value: 0.007209599
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4170f2a48898d04c95366af9798a8d3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4162,7 +4102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4170f2a48898d04c95366af9798a8d3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.65
+      value: 0.007209599
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4170f2a48898d04c95366af9798a8d3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5663,10 +5603,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyA
       objectReference: {fileID: 0}
-    - target: {fileID: 4280180566636936953, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5060442187662816563, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -5685,19 +5621,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.69469976
+      value: -0.6560155
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.71929985
+      value: -0.7547474
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5139103753242862803, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5721,10 +5657,6 @@ PrefabInstance:
       value: 'Unity.Behavior Unity.Behavior.BlackboardVariable`1[[Player, Assembly-CSharp]]'
       objectReference: {fileID: 0}
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      propertyPath: 'managedReferences[4124208276134428966]'
-      value: 'Unity.Behavior Unity.Behavior.BlackboardVariable`1[[Mover, Assembly-CSharp]]'
-      objectReference: {fileID: 0}
-    - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: managedReferences[1714097363635143552].Name
       value: Waypoints
       objectReference: {fileID: 0}
@@ -5733,21 +5665,13 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      propertyPath: managedReferences[4124208276134428966].Name
-      value: Mover
-      objectReference: {fileID: 0}
-    - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: m_BlackboardVariableOverridesList.Array.size
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: managedReferences[1714097367860641856].m_Value
       value: 
       objectReference: {fileID: 1844738633}
-    - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      propertyPath: managedReferences[4124208276134428966].m_Value
-      value: 
-      objectReference: {fileID: 56524962}
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: 'm_BlackboardVariableOverridesList.Array.data[2]'
       value: 1714097363635143552
@@ -5755,10 +5679,6 @@ PrefabInstance:
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: 'm_BlackboardVariableOverridesList.Array.data[3]'
       value: 1714097367860641856
-      objectReference: {fileID: 0}
-    - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      propertyPath: 'm_BlackboardVariableOverridesList.Array.data[4]'
-      value: 4124208276134428966
       objectReference: {fileID: 0}
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: managedReferences[1714097363635143552].GUID.m_Value0
@@ -5775,14 +5695,6 @@ PrefabInstance:
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: managedReferences[1714097367860641856].GUID.m_Value1
       value: 992622172128348666
-      objectReference: {fileID: 0}
-    - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      propertyPath: managedReferences[4124208276134428966].GUID.m_Value0
-      value: 14368346813134802561
-      objectReference: {fileID: 0}
-    - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      propertyPath: managedReferences[4124208276134428966].GUID.m_Value1
-      value: 9679379984383379224
       objectReference: {fileID: 0}
     - target: {fileID: 7295761351615830210, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       propertyPath: managedReferences[1714097363635143552].m_Value.Array.size
@@ -5811,9 +5723,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4280180566636936953, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 56524954}
-    - targetCorrespondingSourceObject: {fileID: 4280180566636936953, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 56524962}
     - targetCorrespondingSourceObject: {fileID: 5019474695420935352, guid: 25d25f0e19c93f04ebb09f227a4a91f3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1793734564}
