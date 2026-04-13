@@ -38,23 +38,26 @@ public partial class LookAroundAction : Action
 
     private async void LookAroundAsync()
     {
-                for (int i = 0;i < 10;i++)
+        for (int i = 0;i < 10;i++)
         {
-            if (!PlayerSeen){
+            if (!PlayerSeen.Value){
             Self.Value.transform.Rotate(0,10,0);
             await Task.Delay(50);}
+            else break;
         }
         for (int i = 0;i < 20;i++)
         {
-            if (!PlayerSeen){
+            if (!PlayerSeen.Value){
             Self.Value.transform.Rotate(0,-10,0);
             await Task.Delay(50);}
+            else break;
         }
         for (int i = 0;i < 20;i++)
         {
-            if (!PlayerSeen){
+            if (!PlayerSeen.Value){
             Self.Value.transform.Rotate(0,10,0);
             await Task.Delay(50);}
+            else break;
         }
         hasLookedAround = true;
     }
